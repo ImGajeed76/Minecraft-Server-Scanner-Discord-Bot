@@ -27,7 +27,10 @@
   { "value": "co", "name": "Corsican" },
   { "value": "cr", "name": "Cree" },
   { "value": "cs", "name": "Czech" },
-  { "value": "cu", "name": "Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church Slavonic" },
+  {
+    "value": "cu",
+    "name": "Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church Slavonic"
+  },
   { "value": "cv", "name": "Chuvash" },
   { "value": "cy", "name": "Welsh" },
   { "value": "da", "name": "Danish" },

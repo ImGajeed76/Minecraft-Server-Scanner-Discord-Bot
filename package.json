@@ -1,5 +1,22 @@
 {
+  "name": "minecraft-server-scanner-discord-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for scanning and displaying Minecraft server information",
+  "main": "index.ts",
+  "scripts": {
+    "start": "bun run index.ts",
+    "deploy": "bun run deploy-commands.ts",
+    "format": "prettier --write ."
+  },
   "dependencies": {
     "discord.js": "^14.16.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "prettier": "^3.6.2",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
